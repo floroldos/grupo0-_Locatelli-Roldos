@@ -4,9 +4,9 @@ project:
   title:        "Proyecto Semana Ucu"      # Project title
   author:       "Floriana Locatelli y Florencia Roldós"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Selected number is 10010010. "      # One line description of what your project does
+  description:  "Selected number is 10010010. Used inputs: in_RESET, in_CLK "      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     10000       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -16,8 +16,8 @@ project:
 pinout:
   # Inputs
   ui[0]: "in_IN"
-  ui[1]: "in_CLK"
-  ui[2]: "in_RESET"
+  ui[1]: ""
+  ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
