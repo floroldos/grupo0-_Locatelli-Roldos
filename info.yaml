@@ -1,4 +1,4 @@
-# Tiny Tapeout project information (Wokwi project)
+# SEMANA UCU PROJECT
 project:
   wokwi_id:     410462766535026689       # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "Proyecto Semana Ucu"      # Project title
@@ -25,7 +25,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "out_OUT"
+  uo[0]: ""
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
